@@ -1,0 +1,33 @@
+# Site settings
+title: "PrestaShop Theme Documentation"
+email: build@prestashop.com
+description: "Official documentation for PrestaShop theme development"
+baseurl: "theme-documentation" # the subpath of your site, e.g. /blog/
+url: "http://build.prestashop.com" # the base hostname & protocol for your site
+
+permalink: /:categories/:title/
+
+google_analytics: "TODO" #"UA-2753771-31"
+disqus_shortname: TODO #prestashopbuild
+
+
+twitter_username: PrestaShop
+github_username:  PrestaShop
+instagram_username: prestacrew
+spotify_username: prestacrew
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+exclude: ["bower.json", "bower_components", "Gemfile", "Gemfile.lock", ".travis.yml", "vendor"]
+
+sass:
+    load_paths:
+        - _sass
+    style: compressed
+
+gems:
+    - jemoji
+    - jekyll-mentions
+    - jekyll-sitemap

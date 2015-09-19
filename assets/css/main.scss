@@ -1,0 +1,40 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$thm-fonts-path: "/assets/fonts";
+
+$OpenSansPath:  $thm-fonts-path + "/open-sans";
+
+// Our variables
+$base-font-family: 'Open Sans', serif; // TODO
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #363a41;
+$white-text-color:  #f9f9f9;
+$background-color: #ffffff;
+$dark-background-color: #333333;
+$brand-color:      #2a7ae2;
+$brand-color-2:    #df0067;
+$brand-color-3:    #1da6c2;
+$code-bg-color:    #fafaff;
+
+$grey-color:       #939393;
+$grey-color-light: #e8e8e8;
+$grey-color-dark:  #555555;
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  // fonts
+  "open-sans-fontface/open-sans.scss",
+
+  "custom",
+  "syntax-highlighting"
+;

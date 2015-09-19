@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="page">
+
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+  {% if page.subtitle %}
+    <h3 class="post-subtitle">{{ page.subtitle | escape }}</h3>
+  {% endif %}
+
+  {{ content }}
+
+</div>

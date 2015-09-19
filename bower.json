@@ -1,0 +1,9 @@
+{
+  "name": "theme-doc.prestashop",
+  "version": "1.0.0",
+  "dependencies": {
+    "open-sans-fontface": "~1.2.1",
+    "simple-jekyll-search": "~1.0.8"
+  },
+  "devDependencies": {}
+}
